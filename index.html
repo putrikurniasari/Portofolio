@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Putri Kurnia Sari | Portfolio - Modern Web Developer & Designer</title>
+
+    <!-- Meta SEO -->
+    <meta name="description"
+        content="Portfolio digital Putri Kurnia Sari - Frontend Developer & UI/UX Designer. Menampilkan keahlian, riwayat pendidikan, proyek kreatif, pengalaman magang, dan kontak.">
+    <meta name="keywords"
+        content="Putri Kurnia Sari, Web Developer, Frontend Engineer, UI/UX Designer, Portfolio Indonesia, Portofolio Web, React Developer">
+    <meta name="author" content="Putri Kurnia Sari">
+
+    <!-- Google Fonts: Outfit & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background Elements -->
+    <div class="blob-bg blob-1"></div>
+    <div class="blob-bg blob-2"></div>
+    <div class="blob-bg blob-3"></div>
+
+    <!-- Header / Navigation -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-accent">&lt;</span>Putri<span class="logo-accent">/&gt;</span>
+            </a>
+
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active" id="nav-link-home">Home</a>
+                <a href="#about" class="nav-link" id="nav-link-about">Tentang</a>
+                <a href="#skills" class="nav-link" id="nav-link-skills">Skills</a>
+                <a href="#education" class="nav-link" id="nav-link-education">Pendidikan</a>
+                <a href="#projects" class="nav-link" id="nav-link-projects">Proyek</a>
+                <a href="#experience" class="nav-link" id="nav-link-experience">Pengalaman</a>
+                <a href="#contact" class="nav-link" id="nav-link-contact">Kontak</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-outline nav-btn">Hubungi Saya</a>
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero / Cover Section -->
+        <section id="home" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="badge hero-badge">Welcome to my universe</span>
+                    <h1 class="hero-title">
+                        Halo, Saya <span class="gradient-text">Putri Kurnia Sari</span>
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        Saya seorang <span id="typing-text" class="typed-text"></span><span class="cursor">&nbsp;</span>
+                    </h2>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">Lihat Proyek <i data-lucide="arrow-right"></i></a>
+                        <a href="#about" class="btn btn-secondary">Tentang Saya</a>
+                    </div>
+                    <div class="hero-socials">
+                        <a href="https://github.com/putrikurniasari" target="_blank" rel="noopener noreferrer"
+                            class="social-icon" aria-label="GitHub">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide-custom">
+                                <path
+                                    d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
+                                <path d="M9 18c-4.51 2-5-2-7-2" />
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/putri-kurnia-sari/" target="_blank"
+                            rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide-custom">
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                                <rect width="4" height="12" x="2" y="9" />
+                                <circle cx="4" cy="4" r="2" />
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/putrikurniaasari?igsh=bjh4bTM1YmNqZmUw" target="_blank"
+                            rel="noopener noreferrer" class="social-icon" aria-label="Instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide-custom">
+                                <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                            </svg>
+                        </a>
+                        <a href="mailto:putrikurnia197@gmail.com" class="social-icon" aria-label="Email"><i
+                                data-lucide="mail"></i></a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="profile-card-wrapper">
+                        <div class="profile-card">
+                            <div class="profile-avatar-container">
+                                <!-- Modern Abstract Avatar / Logo -->
+                                <div class="profile-avatar">
+                                    <i data-lucide="code-xml"></i>
+                                </div>
+                            </div>
+                            <div class="profile-info">
+                                <span class="profile-name">Putri Kurnia Sari</span>
+                                <div class="profile-stats">
+                                    <div class="stat-item">
+                                        <span class="stat-num">4+</span>
+                                        <span class="stat-label">Tahun Belajar</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-num">6+</span>
+                                        <span class="stat-label">Proyek Selesai</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#about" class="scroll-down" aria-label="Scroll Down">
+                <span class="scroll-mouse"><span class="scroll-wheel"></span></span>
+            </a>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">Kenali Lebih Dekat</span>
+                    <h2 class="section-title">Tentang Saya</h2>
+                    <div class="header-line"></div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-image-wrapper">
+                        <div class="about-image-card">
+                            <!-- Visual placeholder using icons & glass effect -->
+                            <div class="card-inner">
+                                <div class="floating-icon icon-1"><i data-lucide="blocks"></i></div>
+                                <div class="floating-icon icon-2"><i data-lucide="smartphone"></i></div>
+                                <div class="floating-icon icon-3"><i data-lucide="palette"></i></div>
+                                <div class="about-brand">
+                                    <div class="brand-logo"><i data-lucide="terminal"></i></div>
+                                    <h3>Kreatif & Detail</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <h3>I'm passionate about technology</h3>
+                        <p>
+                            Saya merupakan lulusan Program Studi S1 Teknik Informatika Universitas Sains dan Teknologi
+                            Indonesia (d.h. STMIK AMIK Riau) dengan konsentrasi Mobile Software Development.
+                            Ketertarikan yang tinggi terhadap pengembangan sistem dan aplikasi mendorong saya untuk
+                            mendalami bidang tersebut selama masa perkuliahan. Selama menempuh pendidikan, saya
+                            memperoleh pemahaman yang kuat mengenai konsep dan teknologi informasi serta
+                            mengaplikasikannya melalui berbagai proyek dan praktik pengembangan perangkat lunak. Selain
+                            bidang pengembangan aplikasi, saya juga memiliki minat dalam desain grafis dan desain UI/UX,
+                            khususnya dalam menciptakan tampilan yang menarik, fungsional, dan berorientasi pada
+                            kebutuhan pengguna. Dengan berbekal skill yang saya miliki tujuan karier saya yakni
+                            memberikan kesempatan untuk terlibat dalam lingkungan kerja profesional serta memperluas
+                            pemahaman mengenai penerapan teknologi informasi di dunia industri.
+                        </p>
+
+
+                        <div class="about-info-grid">
+                            <div class="info-item">
+                                <span class="info-label"><i data-lucide="map-pin"></i> Lokasi:</span>
+                                <span class="info-value">Pekanbaru, Indonesia</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label"><i data-lucide="graduation-cap"></i> Status:</span>
+                                <span class="info-value"> Fresh Graduate</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label"><i data-lucide="briefcase"></i> Status Karir:</span>
+                                <span class="info-value">Tersedia untuk Magang / Bekerja</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label"><i data-lucide="languages"></i> Bahasa:</span>
+                                <span class="info-value">Indonesia, Inggris</span>
+                            </div>
+                        </div>
+
+                        <div class="about-cta">
+                            <a href="#contact" class="btn btn-primary">Bekerja Sama</a>
+                            <a href="CV_Putri_Kurnia_Sari.pdf" download="CV_Putri_Kurnia_Sari.pdf" class="btn btn-outline" id="download-cv"><i data-lucide="download"></i> Unduh CV (PDF)</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">Keahlian Teknis</span>
+                    <h2 class="section-title">Teknologi & Alat</h2>
+                    <div class="header-line"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Web & Mobile Development Card -->
+                    <div class="skills-card">
+                        <div class="card-glow-bg"></div>
+                        <div class="skills-card-content">
+                            <div class="skills-category-icon">
+                                <i data-lucide="layout"></i>
+                            </div>
+                            <h3>Web & Mobile Development</h3>
+                            <p class="skills-card-desc">Bahasa pemrograman dan framework untuk membangun antarmuka web
+                                dan aplikasi mobile yang responsif.</p>
+                            <div class="skills-tags">
+                                <span class="skill-tag">HTML & CSS</span>
+                                <span class="skill-tag">Bootstrap</span>
+                                <span class="skill-tag">JavaScript <small>(Basic)</small></span>
+                                <span class="skill-tag">Flutter <small>(Basic)</small></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Backend & Database Card -->
+                    <div class="skills-card">
+                        <div class="card-glow-bg"></div>
+                        <div class="skills-card-content">
+                            <div class="skills-category-icon">
+                                <i data-lucide="database"></i>
+                            </div>
+                            <h3>Backend & Database</h3>
+                            <p class="skills-card-desc">Pengembangan sistem sisi server, logika bisnis, layanan cloud,
+                                dan pengelolaan basis data.</p>
+                            <div class="skills-tags">
+                                <span class="skill-tag">PHP</span>
+                                <span class="skill-tag">Laravel</span>
+                                <span class="skill-tag">MySQL</span>
+                                <span class="skill-tag">Firebase <small>(Basic)</small></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Design & Productivity Card -->
+                    <div class="skills-card">
+                        <div class="card-glow-bg"></div>
+                        <div class="skills-card-content">
+                            <div class="skills-category-icon">
+                                <i data-lucide="wrench"></i>
+                            </div>
+                            <h3>Desain & Alat Pendukung</h3>
+                            <p class="skills-card-desc">Alat penunjang untuk merancang desain UI/UX, pengeditan gambar,
+                                kontrol versi, dan produktivitas.</p>
+                            <div class="skills-tags">
+                                <span class="skill-tag">Figma</span>
+                                <span class="skill-tag">Adobe Photoshop</span>
+                                <span class="skill-tag">Canva</span>
+                                <span class="skill-tag">Git & GitHub <small>(Basic)</small></span>
+                                <span class="skill-tag">Microsoft Office</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Soft Skills Section -->
+        <section id="soft-skills" class="soft-skills-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">Keahlian Tambahan</span>
+                    <h2 class="section-title">Keahlian Non-Teknis (Soft Skills)</h2>
+                    <div class="header-line"></div>
+                </div>
+
+                <div class="soft-skills-grid">
+                    <!-- Communication -->
+                    <div class="soft-skill-card">
+                        <div class="soft-skill-glow"></div>
+                        <div class="soft-skill-content">
+                            <div class="soft-skill-icon icon-comm">
+                                <i data-lucide="message-square"></i>
+                            </div>
+                            <h3>Communication</h3>
+                            <p>Mampu menyampaikan informasi secara jelas dan efektif, serta mendengarkan secara aktif
+                                untuk kolaborasi yang baik.</p>
+                        </div>
+                    </div>
+
+                    <!-- Teamwork -->
+                    <div class="soft-skill-card">
+                        <div class="soft-skill-glow"></div>
+                        <div class="soft-skill-content">
+                            <div class="soft-skill-icon icon-comm">
+                                <i data-lucide="users"></i>
+                            </div>
+                            <h3>Teamwork</h3>
+                            <p>Proaktif berkolaborasi dalam tim lintas divisi demi mencapai tujuan proyek secara
+                                harmonis dan maksimal.</p>
+                        </div>
+                    </div>
+
+                    <!-- Problem Solving -->
+                    <div class="soft-skill-card">
+                        <div class="soft-skill-glow"></div>
+                        <div class="soft-skill-content">
+                            <div class="soft-skill-icon icon-prob">
+                                <i data-lucide="lightbulb"></i>
+                            </div>
+                            <h3>Problem Solving</h3>
+                            <p>Kritis dalam menganalisis kendala dan proaktif menemukan solusi kreatif serta efisien
+                                dalam pengembangan aplikasi.</p>
+                        </div>
+                    </div>
+
+                    <!-- Time Management -->
+                    <div class="soft-skill-card">
+                        <div class="soft-skill-glow"></div>
+                        <div class="soft-skill-content">
+                            <div class="soft-skill-icon icon-time">
+                                <i data-lucide="clock"></i>
+                            </div>
+                            <h3>Time Management</h3>
+                            <p>Teratur dalam mengelola prioritas tugas dan jadwal kerja guna menjaga produktivitas kerja
+                                yang tinggi.</p>
+                        </div>
+                    </div>
+
+                    <!-- Adaptability -->
+                    <div class="soft-skill-card">
+                        <div class="soft-skill-glow"></div>
+                        <div class="soft-skill-content">
+                            <div class="soft-skill-icon icon-adapt">
+                                <i data-lucide="zap"></i>
+                            </div>
+                            <h3>Adaptability</h3>
+                            <p>Cepat menyesuaikan diri dengan teknologi baru, perubahan alur kerja, dan tantangan di
+                                lingkungan industri.</p>
+                        </div>
+                    </div>
+
+                    <!-- Analytical Thinking -->
+                    <div class="soft-skill-card">
+                        <div class="soft-skill-glow"></div>
+                        <div class="soft-skill-content">
+                            <div class="soft-skill-icon icon-time"
+                                style="color: #a855f7; background: rgba(168, 85, 247, 0.05); border: 1px solid rgba(168, 85, 247, 0.15);">
+                                <i data-lucide="brain"></i>
+                            </div>
+                            <h3>Analytical Thinking</h3>
+                            <p>Memiliki pola pikir logis dan terstruktur untuk memecah masalah kompleks menjadi langkah
+                                solusi yang rasional.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">Riwayat Akademis</span>
+                    <h2 class="section-title">Pendidikan</h2>
+                    <div class="header-line"></div>
+                </div>
+
+                <div class="timeline">
+                    <!-- Education Item 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content card">
+                            <span class="timeline-date"><i data-lucide="calendar"></i> 2022 - 2026</span>
+                            <h3>S1 Teknik Informatika</h3>
+                            <h4 class="timeline-institution">Universitas Sains dan Teknologi Indonesia</h4>
+                            <p>
+                                Mempelajari pengembangan perangkat lunak, basis data, algoritma, dan teknologi web.
+                                Mengembangkan berbagai proyek akademik berbasis web serta meningkatkan kemampuan
+                                analisis dan pemecahan masalah dalam bidang teknologi informasi.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Education Item 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content card">
+                            <span class="timeline-date"><i data-lucide="calendar"></i> 2019 - 2022</span>
+                            <h3>Rekayasa Perangkat Lunak</h3>
+                            <h4 class="timeline-institution">SMK Negeri 1 Pangkalan Kerinci</h4>
+                            <p>
+                                Menempuh pendidikan menengah jurusan Rekaya Perangkat Lunak. Salah satu program keahlian
+                                unggulan di bidang teknologi informasi yang mempelajari cara membuat, merancang, dan
+                                menguji program komputer
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">Portofolio Karya</span>
+                    <h2 class="section-title">Proyek Pilihan</h2>
+                    <div class="header-line"></div>
+                </div>
+
+                <!-- Filter Controls -->
+                <div class="filter-controls">
+                    <button class="filter-btn active" data-filter="all">Semua</button>
+                    <button class="filter-btn" data-filter="web">Web App</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile App</button>
+                    <button class="filter-btn" data-filter="design">UI/UX Design</button>
+                </div>
+
+                <!-- Projects Grid -->
+                <div class="projects-grid" id="projectsGrid">
+                    <!-- Project 1 -->
+                    <div class="project-card" data-category="mobile">
+                        <div class="project-img-wrapper">
+                            <div class="project-overlay">
+                                <div class="project-actions">
+                                    <a href="https://github.com/putrikurniasari/presensi_smk" target="_blank"
+                                        rel="noopener noreferrer" class="project-action-btn" aria-label="Source Code">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="lucide-custom">
+                                            <path
+                                                d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
+                                            <path d="M9 18c-4.51 2-5-2-7-2" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project-placeholder">
+                                <i data-lucide="smartphone"></i>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">Mobile App</span>
+                            <h3>Aplikasi Presensi Siswa SMK</h3>
+                            <p>Aplikasi presensi berbasis mobile dengan autentikasi pengguna, validasi lokasi koordinat,
+                                integrasi Face Recognition, dan penyimpanan database Firebase.</p>
+                            <div class="project-tags">
+                                <span>Flutter</span>
+                                <span>Firebase</span>
+                                <span>Face Recognition</span>
+                                <span>GPS</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card" data-category="web">
+                        <div class="project-img-wrapper">
+                            <div class="project-overlay">
+                                <div class="project-actions">
+                                    <a href="https://github.com/putrikurniasari/dasborpadi" target="_blank"
+                                        rel="noopener noreferrer" class="project-action-btn" aria-label="Source Code">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="lucide-custom">
+                                            <path
+                                                d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
+                                            <path d="M9 18c-4.51 2-5-2-7-2" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project-placeholder">
+                                <i data-lucide="bar-chart-2"></i>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">Web App</span>
+                            <h3>Dashboard Monitoring Padi</h3>
+                            <p>Dashboard web monitoring data pertanian padi dengan fitur CRUD untuk kelola data
+                                statistik, visualisasi grafik data, dan rancangan database terstruktur.</p>
+                            <div class="project-tags">
+                                <span>PHP</span>
+                                <span>Laravel</span>
+                                <span>MySQL</span>
+                                <span>Chart.js</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card" data-category="web">
+                        <div class="project-img-wrapper">
+                            <div class="project-overlay">
+                                <div class="project-actions">
+                                    <a href="https://github.com/Nabil17-alt/PTPN4Regional3" target="_blank"
+                                        rel="noopener noreferrer" class="project-action-btn" aria-label="Source Code">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="lucide-custom">
+                                            <path
+                                                d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
+                                            <path d="M9 18c-4.51 2-5-2-7-2" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project-placeholder">
+                                <i data-lucide="calculator"></i>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">Web App</span>
+                            <h3>Kalkulator Perhitungan CPO & PK</h3>
+                            <p>Aplikasi perhitungan hasil produksi CPO dan PK dengan implementasi logika kustom sesuai
+                                kebutuhan industri, serta pembuatan laporan hasil analisis.</p>
+                            <div class="project-tags">
+                                <span>JavaScript</span>
+                                <span>Bootstrap</span>
+                                <span>PHP</span>
+                                <span>PDF Report</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card" data-category="web">
+                        <div class="project-img-wrapper">
+                            <div class="project-overlay">
+                                <div class="project-actions">
+                                    <a href="https://github.com/putrikurniasari/smk-tuah-negeri" target="_blank"
+                                        rel="noopener noreferrer" class="project-action-btn" aria-label="Source Code">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="lucide-custom">
+                                            <path
+                                                d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
+                                            <path d="M9 18c-4.51 2-5-2-7-2" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project-placeholder">
+                                <i data-lucide="globe"></i>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">Web App</span>
+                            <h3>Website Informasi SMK</h3>
+                            <p>Website portal profil dan media informasi sekolah dengan halaman berita, galeri kegiatan,
+                                formulir kontak, dan pengelolaan dashboard admin.</p>
+                            <div class="project-tags">
+                                <span>PHP</span>
+                                <span>Laravel</span>
+                                <span>MySQL</span>
+                                <span>Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 5 -->
+                    <div class="project-card" data-category="design">
+                        <div class="project-img-wrapper">
+                            <div class="project-overlay">
+                                <div class="project-actions">
+                                    <a href="https://www.figma.com/design/JuMtlSMEl7OCdSbuZnOT2v/Project-Skripsi?node-id=0-1&p=f&t=jq8TItoSu9PTFyhA-0"
+                                        target="_blank" rel="noopener noreferrer" class="project-action-btn"
+                                        aria-label="Lihat Desain Figma">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="lucide-custom">
+                                            <path d="M5 5.5A3.5 3.5 0 0 1 8.5 2H12v7H8.5A3.5 3.5 0 0 1 5 5.5z" />
+                                            <path d="M12 2h3.5a3.5 3.5 0 1 1 0 7H12V2z" />
+                                            <path d="M12 12.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 1 1-7 0z" />
+                                            <path d="M5 12.5A3.5 3.5 0 0 1 8.5 9H12v7H8.5A3.5 3.5 0 0 1 5 12.5z" />
+                                            <path d="M5 19.5A3.5 3.5 0 0 1 8.5 16H12v3.5a3.5 3.5 0 1 1-7 0z" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project-placeholder">
+                                <i data-lucide="palette"></i>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">UI/UX Design</span>
+                            <h3>UI/UX Presensi Online SMK</h3>
+                            <p>Perancangan UI/UX aplikasi presensi mobile siswa SMK, mencakup perancangan user flow,
+                                wireframe, rancangan visual antarmuka presensi, dan prototipe interaktif.</p>
+                            <div class="project-tags">
+                                <span>Figma</span>
+                                <span>Wireframing</span>
+                                <span>Prototyping</span>
+                                <span>Mobile UI</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 6 -->
+                    <div class="project-card" data-category="design">
+                        <div class="project-img-wrapper">
+                            <div class="project-overlay">
+                                <div class="project-actions">
+                                    <a href="https://www.figma.com/design/nahl4zkw5PVbWYaNG9uQqR/Latihan-UX-Designer?node-id=210-437&p=f&t=CASbFoqRXzAvYHmX-0"
+                                        target="_blank" rel="noopener noreferrer" class="project-action-btn"
+                                        aria-label="Lihat Desain Figma">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="lucide-custom">
+                                            <path d="M5 5.5A3.5 3.5 0 0 1 8.5 2H12v7H8.5A3.5 3.5 0 0 1 5 5.5z" />
+                                            <path d="M12 2h3.5a3.5 3.5 0 1 1 0 7H12V2z" />
+                                            <path d="M12 12.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 1 1-7 0z" />
+                                            <path d="M5 12.5A3.5 3.5 0 0 1 8.5 9H12v7H8.5A3.5 3.5 0 0 1 5 12.5z" />
+                                            <path d="M5 19.5A3.5 3.5 0 0 1 8.5 16H12v3.5a3.5 3.5 0 1 1-7 0z" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project-placeholder">
+                                <i data-lucide="palette"></i>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">UI/UX Design</span>
+                            <h3>UI/UX Pemesanan Kopi Online</h3>
+                            <p>Perancangan UI/UX aplikasi pemesanan kopi online dengan fokus pada alur pemesanan yang
+                                cepat, visualisasi menu yang menarik, dan proses checkout yang mudah.</p>
+                            <div class="project-tags">
+                                <span>Figma</span>
+                                <span>Wireframing</span>
+                                <span>Prototyping</span>
+                                <span>User Research</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Internship / Organization Section (Pengalaman Magang & Organisasi) -->
+        <section id="experience" class="experience-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">Jejak Karir & Sosial</span>
+                    <h2 class="section-title">Pengalaman Kerja & Organisasi</h2>
+                    <div class="header-line"></div>
+                </div>
+
+                <!-- Tabs Container -->
+                <div class="experience-tabs-container">
+                    <div class="tab-buttons">
+                        <button class="tab-btn active" data-tab="magang"><i data-lucide="briefcase"></i> Pengalaman
+                            Magang</button>
+                        <button class="tab-btn" data-tab="organisasi"><i data-lucide="users"></i> Pengalaman
+                            Organisasi</button>
+                    </div>
+
+                    <div class="tab-contents">
+                        <!-- Magang Tab Content -->
+                        <div class="tab-content active" id="magang-content">
+                            <div class="experience-list">
+                                <!-- Magang 1 -->
+                                <div class="exp-card">
+                                    <div class="exp-header">
+                                        <div class="exp-logo-placeholder">
+                                            <i data-lucide="terminal"></i>
+                                        </div>
+                                        <div class="exp-title-meta">
+                                            <h3>Magang Teknologi Informasi</h3>
+                                            <span class="company">PT. Perkebunan Nusantara Regional III</span>
+                                            <span class="date"><i data-lucide="calendar"></i> Agustus 2025 - September
+                                                2025</span>
+                                        </div>
+                                    </div>
+                                    <ul class="exp-details">
+                                        <li>Terlibat dalam pengembangan proyek website untuk mendukung kebutuhan
+                                            operasional perusahaan.</li>
+                                        <li>Membantu proses administrasi dan pengelolaan data pada divisi Teknologi
+                                            Informasi.</li>
+                                        <li>Mendukung kegiatan operasional karyawan melalui pemanfaatan teknologi dan
+                                            sistem informasi.</li>
+                                        <li>Berkolaborasi dengan tim dalam penyelesaian tugas dan pengembangan solusi
+                                            berbasis web.</li>
+                                        <li>Melakukan pengujian serta perbaikan pada fitur website yang dikembangkan.
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <!-- Magang 2 -->
+                                <div class="exp-card">
+                                    <div class="exp-header">
+                                        <div class="exp-logo-placeholder">
+                                            <i data-lucide="palette"></i>
+                                        </div>
+                                        <div class="exp-title-meta">
+                                            <h3>Magang Desain Grafis dan Percetakan</h3>
+                                            <span class="company">Zimam Advertising</span>
+                                            <span class="date"><i data-lucide="calendar"></i> Juli 2021 - Oktober
+                                                2021</span>
+                                        </div>
+                                    </div>
+                                    <ul class="exp-details">
+                                        <li>Mendesain berbagai media promosi seperti spanduk, banner, dan materi cetak
+                                            lainnya sesuai kebutuhan pelanggan.</li>
+                                        <li>Membuat desain stempel dan menyiapkan file produksi untuk proses pencetakan.
+                                        </li>
+                                        <li>Mengoperasikan perangkat dan aplikasi pendukung proses percetakan.</li>
+                                        <li>Membantu proses pencetakan foto dan produk percetakan lainnya dengan
+                                            memperhatikan kualitas hasil cetak.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Organisasi Tab Content -->
+                        <div class="tab-content" id="organisasi-content">
+                            <div class="experience-list">
+                                <!-- Organisasi 1 -->
+                                <div class="exp-card">
+                                    <div class="exp-header">
+                                        <div class="exp-logo-placeholder">
+                                            <i data-lucide="users"></i>
+                                        </div>
+                                        <div class="exp-title-meta">
+                                            <h3>Anggota Divisi Desain Grafis</h3>
+                                            <span class="company">UKM KERTAS</span>
+                                            <span class="date"><i data-lucide="calendar"></i> 2022 - 2023</span>
+                                        </div>
+                                    </div>
+                                    <ul class="exp-details">
+                                        <li>Bertanggung jawab mendesain pamflet, banner, dan konten media sosial untuk
+                                            publikasi kegiatan UKM.</li>
+                                        <li>Mengelola kebutuhan desain untuk berbagai program kerja dan acara
+                                            organisasi.</li>
+                                        <li>Menggunakan software desain grafis untuk membuat materi promosi yang
+                                            informatif dan menarik.</li>
+                                    </ul>
+                                </div>
+
+                                <!-- Organisasi 2 -->
+                                <div class="exp-card">
+                                    <div class="exp-header">
+                                        <div class="exp-logo-placeholder">
+                                            <i data-lucide="file-text"></i>
+                                        </div>
+                                        <div class="exp-title-meta">
+                                            <h3>Sekretaris</h3>
+                                            <span class="company">UKM KERTAS</span>
+                                            <span class="date"><i data-lucide="calendar"></i> 2023 - 2024</span>
+                                        </div>
+                                    </div>
+                                    <ul class="exp-details">
+                                        <li>Bertanggung jawab sebagai sekretaris, mengurus administrasi dan surat
+                                            menyurat organisasi.</li>
+                                        <li>Membuat konten visual publikasi dan dokumentasi kegiatan resmi organisasi.
+                                        </li>
+                                        <li>Merancang desain media promosi untuk kebutuhan penyebaran informasi
+                                            kegiatan.</li>
+                                    </ul>
+                                </div>
+
+                                <!-- Organisasi 3 -->
+                                <div class="exp-card">
+                                    <div class="exp-header">
+                                        <div class="exp-logo-placeholder">
+                                            <i data-lucide="heart"></i>
+                                        </div>
+                                        <div class="exp-title-meta">
+                                            <h3>Pengabdian Masyarakat Pemula (PMP)</h3>
+                                            <span class="company">Hibah Pengabdian Universitas</span>
+                                            <span class="date"><i data-lucide="calendar"></i> Juli 2024 - Januari
+                                                2025</span>
+                                        </div>
+                                    </div>
+                                    <ul class="exp-details">
+                                        <li>Mendampingi dosen dalam pelaksanaan program pelatihan Internet of Things
+                                            (IoT) dan Mobile Development bagi guru sekolah.</li>
+                                        <li>Menyusun laporan keuangan program pengabdian secara berkala.</li>
+                                        <li>Membantu dokumentasi seluruh kegiatan pelatihan dan operasional di lapangan.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">Hubungi Saya</span>
+                    <h2 class="section-title">Kirim Pesan</h2>
+                    <div class="header-line"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact Info -->
+                    <div class="contact-info-card">
+                        <h3>Hubungi atau temukan saya di platform sosial media lainnya</h3>
+                        <p>Saya terbuka untuk mendiskusikan peluang kerja sama baru, magang, proyek lepas, atau sekadar
+                            bertukar pikiran seputar teknologi web.</p>
+
+                        <div class="contact-methods">
+                            <div class="method-item">
+                                <div class="method-icon"><i data-lucide="mail"></i></div>
+                                <div class="method-details">
+                                    <span>Surel / Email</span>
+                                    <a href="mailto:putrikurnia197@gmail.com">putrikurnia197@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="method-item">
+                                <div class="method-icon"><i data-lucide="phone"></i></div>
+                                <div class="method-details">
+                                    <span>Telepon / WhatsApp</span>
+                                    <a href="tel:+6281234567890">+62 812-6967-0145</a>
+                                </div>
+                            </div>
+                            <div class="method-item">
+                                <div class="method-icon"><i data-lucide="map-pin"></i></div>
+                                <div class="method-details">
+                                    <span>Lokasi</span>
+                                    <p>Pekanbaru, Indonesia</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-social-list">
+                            <a href="https://github.com/putrikurniasari" target="_blank" rel="noopener noreferrer"
+                                aria-label="GitHub">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide-custom">
+                                    <path
+                                        d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
+                                    <path d="M9 18c-4.51 2-5-2-7-2" />
+                                </svg>
+                            </a>
+                            <a href="https://www.linkedin.com/in/putri-kurnia-sari/" target="_blank"
+                                rel="noopener noreferrer" aria-label="LinkedIn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide-custom">
+                                    <path
+                                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                                    <rect width="4" height="12" x="2" y="9" />
+                                    <circle cx="4" cy="4" r="2" />
+                                </svg>
+                            </a>
+                            <a href="https://www.instagram.com/putrikurniaasari?igsh=bjh4bTM1YmNqZmUw" target="_blank"
+                                rel="noopener noreferrer" aria-label="Instagram">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide-custom">
+                                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-wrapper">
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group-row">
+                                <div class="form-group">
+                                    <label for="name">Nama Lengkap</label>
+                                    <div class="input-wrapper">
+                                        <i data-lucide="user"></i>
+                                        <input type="text" id="name" name="name" required
+                                            placeholder="Masukkan nama Anda">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Surel (Email)</label>
+                                    <div class="input-wrapper">
+                                        <i data-lucide="mail"></i>
+                                        <input type="email" id="email" name="email" required
+                                            placeholder="name@email.com">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subjek</label>
+                                <div class="input-wrapper">
+                                    <i data-lucide="info"></i>
+                                    <input type="text" id="subject" name="subject" required
+                                        placeholder="Apa yang ingin dibahas?">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Pesan Anda</label>
+                                <div class="input-wrapper text-area-wrapper">
+                                    <i data-lucide="message-square"></i>
+                                    <textarea id="message" name="message" required rows="5"
+                                        placeholder="Tuliskan pesan Anda secara detail..."></textarea>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-submit">
+                                Kirim Pesan <i data-lucide="send"></i>
+                            </button>
+                            <div id="formStatus" class="form-status"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <span class="logo-accent">&lt;</span>Putri<span class="logo-accent">/&gt;</span>
+                </a>
+                <p>Mendedikasikan diri untuk merancang dan mengembangkan pengalaman web berkualitas tinggi.</p>
+            </div>
+
+            <div class="footer-nav">
+                <h4>Navigasi</h4>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">Tentang</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Proyek</a>
+                    <a href="#experience">Pengalaman</a>
+                </div>
+            </div>
+
+            <div class="footer-socials-col">
+                <h4>Sosial Media</h4>
+                <div class="footer-icons">
+                    <a href="https://github.com/putrikurniasari" target="_blank" rel="noopener noreferrer"
+                        aria-label="GitHub">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide-custom">
+                            <path
+                                d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
+                            <path d="M9 18c-4.51 2-5-2-7-2" />
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/putri-kurnia-sari/" target="_blank" rel="noopener noreferrer"
+                        aria-label="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide-custom">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                            <rect width="4" height="12" x="2" y="9" />
+                            <circle cx="4" cy="4" r="2" />
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/putrikurniaasari?igsh=bjh4bTM1YmNqZmUw" target="_blank"
+                        rel="noopener noreferrer" aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide-custom">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Putri Kurnia Sari. All Rights Reserved. Dibuat dengan <i data-lucide="heart"
+                    class="heart-icon"></i> dan Javascript.</p>
+        </div>
+    </footer>
+
+    <!-- Script JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -806,6 +806,7 @@ li {
     color: var(--color-text-secondary);
     margin-bottom: 16px;
     font-size: 1.05rem;
+    text-align: justify;
 }
 
 .about-info-grid {
